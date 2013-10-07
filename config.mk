@@ -40,13 +40,13 @@ NO_UI_OPTIMIZE:=0
 CACHE_RHEL:=0
 
 # Repos and versions
-FUELLIB_COMMIT?=stable/4.1
-NAILGUN_COMMIT?=stable/4.1
+FUELLIB_COMMIT?=us-4.1
+NAILGUN_COMMIT?=us-4.1
 ASTUTE_COMMIT?=stable/4.1
 OSTF_COMMIT?=stable/4.1
 
-FUELLIB_REPO?=https://github.com/stackforge/fuel-library.git
-NAILGUN_REPO?=https://github.com/stackforge/fuel-web.git
+FUELLIB_REPO?=https://github.com/xarses/fuel-library.git
+NAILGUN_REPO?=https://github.com/xarses/fuel-web.git
 ASTUTE_REPO?=https://github.com/stackforge/fuel-astute.git
 OSTF_REPO?=https://github.com/stackforge/fuel-ostf.git
 
