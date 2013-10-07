@@ -96,6 +96,7 @@ for i in $(ls | grep %) ; do mv $i $(echo $i | echo -e $(sed 's/%/\\x/g')) ; don
 # Move all stuff to the our package pool
 ##########################################
 mv /var/cache/apt/archives/*deb /repo/pool/main
+cp /repo/*.deb /repo/pool/main
 cd /repo/pool/main
 # urlencode again
 for i in $(ls | grep %) ; do mv $i $(echo $i | echo -e $(sed 's/%/\\x/g')) ; done
